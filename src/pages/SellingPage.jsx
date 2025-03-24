@@ -3,7 +3,6 @@ import { Button } from '../components/ui/button';
 import { Input } from '../components/ui/input';
 import { Textarea } from '../components/ui/textarea';
 
-
 export default function SellingPage() {
   const [products, setProducts] = useState([]);
   const [formData, setFormData] = useState({
@@ -142,7 +141,7 @@ export default function SellingPage() {
       </div>
 
       {calling && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+        <div className="fixed inset-0 flex items-center justify-center bg-green-500 bg-opacity-50">
           <div className="bg-white p-8 rounded-xl shadow-lg text-center relative">
             <div className="animate-spin h-12 w-12 border-4 border-blue-500 border-t-transparent rounded-full mx-auto mb-4"></div>
             <h2 className="text-2xl font-bold text-blue-600 mb-2">{callStatus}</h2>

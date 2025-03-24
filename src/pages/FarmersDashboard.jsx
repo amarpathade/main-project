@@ -22,8 +22,8 @@ const FarmersDashboard = () => {
 
   const [farmerProfile, setFarmerProfile] = useState({
     id: 'F12345',
-    name: 'Alok Raut',
-    address: 'Pardi Nagpur Maharashtra',
+    name: 'farmer user',
+    address: 'name, street, city, state, country',
     mobile: '9000000000'
   });
 
